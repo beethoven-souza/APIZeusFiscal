@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BEETHOVEN\\Desktop\\APIZeusFiscal\\APIZeusFiscal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5D1E0A-E6C7-4E83-8385-8D2A1168DE69}|APIZeusFiscal\\APIZeusFiscal.csproj|c:\\users\\beethoven\\desktop\\apizeusfiscal\\apizeusfiscal\\apizeusfiscal\\controllers\\zeuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5D1E0A-E6C7-4E83-8385-8D2A1168DE69}|APIZeusFiscal\\APIZeusFiscal.csproj|solutionrelative:apizeusfiscal\\controllers\\zeuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5D1E0A-E6C7-4E83-8385-8D2A1168DE69}|APIZeusFiscal\\APIZeusFiscal.csproj|c:\\users\\beethoven\\desktop\\apizeusfiscal\\apizeusfiscal\\apizeusfiscal\\configuracaoservico\\iconfiguracaoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5D1E0A-E6C7-4E83-8385-8D2A1168DE69}|APIZeusFiscal\\APIZeusFiscal.csproj|solutionrelative:apizeusfiscal\\configuracaoservico\\iconfiguracaoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5D1E0A-E6C7-4E83-8385-8D2A1168DE69}|APIZeusFiscal\\APIZeusFiscal.csproj|c:\\users\\beethoven\\desktop\\apizeusfiscal\\apizeusfiscal\\apizeusfiscal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5D1E0A-E6C7-4E83-8385-8D2A1168DE69}|APIZeusFiscal\\APIZeusFiscal.csproj|solutionrelative:apizeusfiscal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BEETHOVEN\\Desktop\\APIZeusFiscal\\APIZeusFiscal\\APIZeusFiscal\\Program.cs",
+              "RelativeDocumentMoniker": "APIZeusFiscal\\Program.cs",
+              "ToolTip": "C:\\Users\\BEETHOVEN\\Desktop\\APIZeusFiscal\\APIZeusFiscal\\APIZeusFiscal\\Program.cs",
+              "RelativeToolTip": "APIZeusFiscal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:57:40.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IConfiguracaoServico.cs",
+              "DocumentMoniker": "C:\\Users\\BEETHOVEN\\Desktop\\APIZeusFiscal\\APIZeusFiscal\\APIZeusFiscal\\ConfiguracaoServico\\IConfiguracaoServico.cs",
+              "RelativeDocumentMoniker": "APIZeusFiscal\\ConfiguracaoServico\\IConfiguracaoServico.cs",
+              "ToolTip": "C:\\Users\\BEETHOVEN\\Desktop\\APIZeusFiscal\\APIZeusFiscal\\APIZeusFiscal\\ConfiguracaoServico\\IConfiguracaoServico.cs",
+              "RelativeToolTip": "APIZeusFiscal\\ConfiguracaoServico\\IConfiguracaoServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:19:23.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZeusController.cs",
+              "DocumentMoniker": "C:\\Users\\BEETHOVEN\\Desktop\\APIZeusFiscal\\APIZeusFiscal\\APIZeusFiscal\\Controllers\\ZeusController.cs",
+              "RelativeDocumentMoniker": "APIZeusFiscal\\Controllers\\ZeusController.cs",
+              "ToolTip": "C:\\Users\\BEETHOVEN\\Desktop\\APIZeusFiscal\\APIZeusFiscal\\APIZeusFiscal\\Controllers\\ZeusController.cs",
+              "RelativeToolTip": "APIZeusFiscal\\Controllers\\ZeusController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwEgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:10:56.844Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@APIZeusFiscal_HostAddress = http://localhost:5058
+
+GET {{APIZeusFiscal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

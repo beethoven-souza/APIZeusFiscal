@@ -1,0 +1,166 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "APIZeusFiscal",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/nfe/consultarStatusServico": {
+      "get": {
+        "tags": [
+          "Zeus"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/nfe/nfeDistribuicaoDfe": {
+      "get": {
+        "tags": [
+          "Zeus"
+        ],
+        "parameters": [
+          {
+            "name": "ufAutor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cpfCnpj",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ultNSU",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "0"
+            }
+          },
+          {
+            "name": "nSU",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "0"
+            }
+          },
+          {
+            "name": "chNFE",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/nfe/ManifestacaoDestinatario": {
+      "get": {
+        "tags": [
+          "Zeus"
+        ],
+        "parameters": [
+          {
+            "name": "idlote",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "sequenciaEvento",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "chaveNFe",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "nFeTipoEventoManifestacaoDestinatario",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/NFeTipoEvento"
+            }
+          },
+          {
+            "name": "cpfcnpj",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "justificativa",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dhEvento",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "NFeTipoEvento": {
+        "enum": [
+          110110,
+          110111,
+          110112,
+          110130,
+          110131,
+          110140,
+          110192,
+          110193,
+          110750,
+          110751,
+          210200,
+          210210,
+          210220,
+          210240,
+          610130,
+          610131,
+          790700
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}
